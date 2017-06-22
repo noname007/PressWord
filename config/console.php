@@ -12,6 +12,9 @@ $config = [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
+        'authManager' => [
+            'class' => \mdm\admin\components\DbManager::className(),
+        ],
         'log' => [
             'targets' => [
                 [
