@@ -60,12 +60,16 @@ $config = [
             'class' => 'mdm\admin\Module',
             'layout' => 'left-menu',
             'mainLayout' => '@app/views/layouts/yii2-admin.php',
-        ]
+        ],
+        'merit' => [
+            'class' => 'yiier\merit\Module',
+            'types' => [1 => '积分', 2 => '声望'] // Optional
+        ],
     ],
     'as access' => [
         'class' => 'mdm\admin\components\AccessControl',
         'allowActions' => [
-//            "*",
+            "*",
         ]
     ],
 ];
