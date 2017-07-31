@@ -433,7 +433,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/noname007/yii2-merit.git",
-                "reference": "388befce0fb1f604e1418ac956d6f1dfe9d82887"
+                "reference": "c76f569d4cfb212dcd4fd996c02aa316397d0a47"
             },
             "require": {
                 "yiisoft/yii2": "*"
@@ -464,7 +464,7 @@
                 "reputation",
                 "yii2"
             ],
-            "time": "2017-07-14 02:16:08"
+            "time": "2017-07-14 02:37:58"
         },
         {
             "name": "yiisoft/yii2",
